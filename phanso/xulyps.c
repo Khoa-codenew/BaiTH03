@@ -35,3 +35,10 @@ int main()
     free(ps2);
     return 0;
 }
+/*
+su khac biet thu vien dong tinh
+-kich thuoc file file thuc thi file tinh > file dong
+-file tinh chi phu thuoc vao system libraries con file dong phu thuoc vao psdong.so trong lib
+- file tinh co the chay doc lap khong can file thu vien con file dong phu thuoc vao psdong.so
+- can complie lai file tinh khi thu vien thay doi con file dong chi can cap nhat file so khong can recompile lai main
+*/

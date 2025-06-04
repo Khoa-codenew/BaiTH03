@@ -21,3 +21,14 @@ int main()
         printf("ID cua tien trinh cha sau khi fork la: %d\n", getpid());
     }
 }
+/*khi khong co dong NULL:
+- tien trinh cha va con chay song song
+- cha co the ket thuc truoc con
+- con co the tro thanh zombie process hoac orphan process
+- output co the bi xao tron vi ca 2 in cung luc
+
+    khi co dong NULL:
+- tien trinh cha se doi cho den khi tien trinh con ket thuc
+- dam bao thu tu thuc thi: con chay xong roi cha moi chay tiep
+- out put duoc sap xep co thu tu
+*/
